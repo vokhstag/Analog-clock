@@ -13,6 +13,7 @@
 		8506B51A2702C44F00BA3DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8506B5182702C44F00BA3DB1 /* Main.storyboard */; };
 		8506B51C2702C45000BA3DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8506B51B2702C45000BA3DB1 /* Assets.xcassets */; };
 		8506B51F2702C45000BA3DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8506B51D2702C45000BA3DB1 /* LaunchScreen.storyboard */; };
+		8506B5282702C4AA00BA3DB1 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8506B5272702C4AA00BA3DB1 /* ClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8506B51B2702C45000BA3DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8506B51E2702C45000BA3DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8506B5202702C45000BA3DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8506B5272702C4AA00BA3DB1 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8506B51B2702C45000BA3DB1 /* Assets.xcassets */,
 				8506B51D2702C45000BA3DB1 /* LaunchScreen.storyboard */,
 				8506B5202702C45000BA3DB1 /* Info.plist */,
+				8506B5272702C4AA00BA3DB1 /* ClockView.swift */,
 			);
 			path = ClockTest;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8506B5172702C44F00BA3DB1 /* ViewController.swift in Sources */,
+				8506B5282702C4AA00BA3DB1 /* ClockView.swift in Sources */,
 				8506B5132702C44F00BA3DB1 /* AppDelegate.swift in Sources */,
 				8506B5152702C44F00BA3DB1 /* SceneDelegate.swift in Sources */,
 			);

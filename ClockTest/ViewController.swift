@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var clockView: ClockView!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let _ = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+            self.clockView.setNeedsDisplay()
+        }
     }
-
-
 }
 
